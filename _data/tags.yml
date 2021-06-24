@@ -6,3 +6,7 @@ programmers :
   name: programmers
   description: False
   cover: assets/built/images/programmers.jpg
+projects :
+  name: projects
+  description: False
+  cover: assets/built/images/project.png
