@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://pkpete.github.io/author/pkpete/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://pkpete.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-06-24T17:56:23+09:00</updated>
+  <id>https://pkpete.github.io/author/pkpete/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">IT Technical Training | </title>
+  
+
+  
+    <subtitle>IT 공부 블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Prgrammers 알고리즘 -</title>
+      <link href="https://pkpete.github.io/programmers-1000" rel="alternate" type="text/html" title="Prgrammers 알고리즘 -" />
+      <published>2021-06-21T00:00:00+09:00</published>
+      <updated>2021-06-21T00:00:00+09:00</updated>
+      <id>https://pkpete.github.io/programmers-1000</id>
+      <content type="html" xml:base="https://pkpete.github.io/programmers-1000">&lt;p&gt;이 글은 프로그래머스 문제&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KO JAE UK</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="programmers" />
+      
+
+      
+        <summary type="html">이 글은 프로그래머스 문제</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Baekjoon 알고리즘 - 1000번 c++</title>
+      <link href="https://pkpete.github.io/baekjoon-1000" rel="alternate" type="text/html" title="Baekjoon 알고리즘 - 1000번 c++" />
+      <published>2021-06-21T00:00:00+09:00</published>
+      <updated>2021-06-21T00:00:00+09:00</updated>
+      <id>https://pkpete.github.io/baekjoon-1000</id>
+      <content type="html" xml:base="https://pkpete.github.io/baekjoon-1000">&lt;p&gt;이 글은 백준 문제&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;#include &amp;lt;iostream&amp;gt;
+using namespace std;
+
+int main() {
+	int a, b;
+	cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b;
+	if (a &amp;gt; b) {
+		cout &amp;lt;&amp;lt; &amp;quot;&amp;gt;&amp;quot;;
+	}
+	else if (a &amp;lt; b)
+		cout &amp;lt;&amp;lt; &amp;quot;&amp;lt;&amp;quot;;
+	else cout &amp;lt;&amp;lt; &amp;quot;==&amp;quot;;
+}&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/pkpete/1f208a14596f3ccd1fbfc3776a610833.js&quot;&gt; &lt;/script&gt;
+
+&lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;==&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KO JAE UK</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="baekjoon" />
+      
+
+      
+        <summary type="html">이 글은 백준 문제</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
