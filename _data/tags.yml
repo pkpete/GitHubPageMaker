@@ -2,11 +2,13 @@ baekjoon :
   name: baekjoon
   description: False
   cover: assets/built/images/baekjoon.png
+
 programmers :
   name: programmers
   description: False
   cover: assets/built/images/programmers.jpg
-projects :
-  name: projects
+  
+myproject :
+  name: myproject
   description: False
   cover: assets/built/images/project.png
