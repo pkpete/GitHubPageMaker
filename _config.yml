@@ -45,19 +45,19 @@ url: https://pkpete.github.io
 baseurl: /
 
 # Website info
-title: IT Technical Training
+title: 냉정과 열정 사이
 # 자신의 blog title.
 
-description: IT 공부 블로그
+description: 공부, 일상
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/blog-cover1.jpg
+cover: assets/built/images/background.jpg
 # blog home에 표시될 blog cover image.
 
 logo:
 logo_dark:
 
-favicon: assets/built/images/favicon.png
+favicon: assets/built/images/fire.png
 # favicon으로 사용할 image
 
 production_url: https://pkpete.github.io/
