@@ -11,4 +11,9 @@ programmers :
 myproject :
   name: myproject
   description: False
-  cover: assets/built/images/project.png
+  cover: assets/built/images/blog-cover1.jpg
+
+dailylife:
+  name: dailylife
+  description: False
+  cover: assets/built/images/dailylife.jpg
