@@ -1,12 +1,7 @@
-baekjoon :
-  name: baekjoon
+algorithm :
+  name: algorithm
   description: False
-  cover: assets/built/images/baekjoon.png
-
-programmers :
-  name: programmers
-  description: False
-  cover: assets/built/images/programmers.jpg
+  cover: assets/built/images/algorithm.png
   
 myproject :
   name: myproject
