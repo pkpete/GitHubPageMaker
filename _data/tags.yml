@@ -8,7 +8,7 @@ myproject :
   description: False
   cover: assets/built/images/blog-cover1.jpg
 
-dailylife:
-  name: dailylife
+boostcamp:
+  name: boostcamp
   description: False
-  cover: assets/built/images/dailylife.jpg
+  cover: assets/built/images/boostcamp.jpg
