@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>공부, 일상</description>
+    <link>
+    https://pkpete.github.io</link>
+    
+      
+      <item>
+        <title>Week 1</title>
+        
+          <description>&lt;h1 id=&quot;week-1&quot;&gt;Week 1&lt;/h1&gt;
+&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#day-01&quot;&gt;Day 01&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#day-02&quot;&gt;Day 02&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#day-03&quot;&gt;Day 03&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#day-04&quot;&gt;Day 04&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 05 Aug 2021 15:00:00 +0000</pubDate>
+        <link>
+        https://pkpete.github.io/boostcamp</link>
+        <guid isPermaLink="true">https://pkpete.github.io/boostcamp</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Baekjoon 알고리즘 - 9663번 N-Queen c++</title>
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/9663&quot;&gt;9663번 N-Queen&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Jul 2021 15:00:00 +0000</pubDate>
+        <link>
+        https://pkpete.github.io/baekjoon-9663</link>
+        <guid isPermaLink="true">https://pkpete.github.io/baekjoon-9663</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Baekjoon 알고리즘 - 1759번 암호 만들기 c++</title>
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1759&quot;&gt;1759번 암호 만들기&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Jul 2021 15:00:00 +0000</pubDate>
+        <link>
+        https://pkpete.github.io/baekjoon-1759</link>
+        <guid isPermaLink="true">https://pkpete.github.io/baekjoon-1759</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Baekjoon 알고리즘 - 1039번 교환 c++</title>
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1039&quot;&gt;1039 교환 문제&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Jul 2021 15:00:00 +0000</pubDate>
+        <link>
+        https://pkpete.github.io/baekjoon-1039</link>
+        <guid isPermaLink="true">https://pkpete.github.io/baekjoon-1039</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Project</title>
+        
+          <description>&lt;p&gt;이 글은 Project Page&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 20 Jun 2021 03:00:00 +0000</pubDate>
+        <link>
+        https://pkpete.github.io/project1</link>
+        <guid isPermaLink="true">https://pkpete.github.io/project1</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

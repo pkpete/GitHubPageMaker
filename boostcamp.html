@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Week 1</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- 웹 폰트 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+    <!-- syntax.css 추가 -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="공부, 일상" />
+    <link rel="shortcut icon" type="image/png"  href="/assets/built/images/favicon.png"  /> 
+    <!--<link rel="shortcut icon" href="https://pkpete.github.io/assets/built/images/favicon.png" type="image/png" />-->
+    <link rel="canonical" href="https://pkpete.github.io/boostcamp" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="D A R K&nbsp; &nbsp;H O R S E" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Week 1" />
+    <meta property="og:description" content="Week 1 목차 Day 01 Day 02 Day 03 Day 04 Day 01 강의 복습 내용 [Python2-1] 변수 데이터을 저장하기 위한 메모리 공간 값은 메모리 주소에 할당된다 ex A = 8 .. A라는 이름을 가진 메모리 주소에 8을 저장하라 Dynamic Typing 다른 언어와 달리 파이썬은 코드 실행 시점에 데이터의 Type을" />
+    <meta property="og:url" content="https://pkpete.github.io/boostcamp" />
+    <meta property="og:image" content="https://pkpete.github.io/assets/built/images/boostcamp.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2021-08-05T15:00:00+00:00" />
+    <meta property="article:modified_time" content="2021-08-05T15:00:00+00:00" />
+    <meta property="article:tag" content="Boostcamp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Week 1" />
+    <meta name="twitter:description" content="Week 1 목차 Day 01 Day 02 Day 03 Day 04 Day 01 강의 복습 내용 [Python2-1] 변수 데이터을 저장하기 위한 메모리 공간 값은 메모리 주소에 할당된다 ex A = 8 .. A라는 이름을 가진 메모리 주소에 8을 저장하라 Dynamic Typing 다른 언어와 달리 파이썬은 코드 실행 시점에 데이터의 Type을" />
+    <meta name="twitter:url" content="https://pkpete.github.io/" />
+    <meta name="twitter:image" content="https://pkpete.github.io/assets/built/images/boostcamp.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="D A R K&nbsp; &nbsp;H O R S E" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Boostcamp" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "D A R K&nbsp; &nbsp;H O R S E",
+        "logo": "https://pkpete.github.io/"
+    },
+    "url": "https://pkpete.github.io/boostcamp",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://pkpete.github.io/assets/built/images/boostcamp.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://pkpete.github.io/boostcamp"
+    },
+    "description": "Week 1 목차 Day 01 Day 02 Day 03 Day 04 Day 01 강의 복습 내용 [Python2-1] 변수 데이터을 저장하기 위한 메모리 공간 값은 메모리 주소에 할당된다 ex A = 8 .. A라는 이름을 가진 메모리 주소에 8을 저장하라 Dynamic Typing 다른 언어와 달리 파이썬은 코드 실행 시점에 데이터의 Type을"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Week 1" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://pkpete.github.io/">D A R K&nbsp; &nbsp;H O R S E</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-algorithm" role="menuitem"><a href="/tag/algorithm/">Algorithm</a></li>
+    <li class="nav-myproject" role="menuitem"><a href="/tag/myproject/">Projects</a></li>
+    <li class="nav-dailylife" role="menuitem"><a href="/tag/boostcamp/">Boost Camp</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag별 Posts</a>
+    </li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-boostcamp post tag-boostcamp ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 5 August 2021"> 5 August 2021</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/boostcamp/'>BOOSTCAMP</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Week 1</h1>
+            </header>
+
+            <!--
+            
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/boostcamp.jpg)">
+            </figure>
+            
+            -->
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <h1 id="week-1">Week 1</h1>
+<h2 id="목차">목차</h2>
+<ul>
+  <li><a href="#day-01">Day 01</a></li>
+  <li><a href="#day-02">Day 02</a></li>
+  <li><a href="#day-03">Day 03</a></li>
+  <li><a href="#day-04">Day 04</a></li>
+</ul>
+
+<hr />
+
+<h2 id="day-01">Day 01</h2>
+<h3 id="강의-복습-내용">강의 복습 내용</h3>
+<h5 id="python2-1">[Python2-1]</h5>
+<h6 id="변수">변수</h6>
+<ul>
+  <li>데이터을 저장하기 위한 메모리 공간</li>
+  <li>값은 메모리 주소에 할당된다
+ex A = 8 .. A라는 이름을 가진 메모리 주소에 8을 저장하라</li>
+</ul>
+
+<h6 id="dynamic-typing">Dynamic Typing</h6>
+<ul>
+  <li>다른 언어와 달리 파이썬은 코드 실행 시점에 데이터의 Type을 경정한다</li>
+</ul>
+
+<h6 id="list">List</h6>
+<ul>
+  <li>Indexing
+    <ul>
+      <li>List에 있는 값들은 주소를 갖는다</li>
+    </ul>
+  </li>
+  <li>Slicing
+    <ul>
+      <li>List의 값들을 잘라서 쓰는 것
+ex) alpha = [‘a’, ‘b’, ‘c’, ‘d’, ‘e’]
+print(alpha[:]) #[‘a’, ‘b’, ‘c’, ‘d’, ‘e’]
+print(alpha[-4:])    #[‘b’, ‘c’, ‘d’, ‘e’]</li>
+    </ul>
+  </li>
+  <li>List의 연산
+    <ul>
+      <li>+ : 합치기</li>
+      <li>* : 반복</li>
+      <li>len() : 리스트 길이</li>
+      <li>append : 이어붙이기
+  ex) alpha.append(‘z’)</li>
+      <li>extend : 새로운 리스트 추가
+  ex) alpha.extend([‘z’])</li>
+      <li>insert
+  ex) alpha.insert(0,’a’)</li>
+      <li>remove
+  ex) alpha.remove(‘z’)</li>
+      <li>del
+  ex) del alpha[0]</li>
+    </ul>
+  </li>
+</ul>
+
+<h6 id="패킹과-언패킹">패킹과 언패킹</h6>
+<ul>
+  <li>패킹 : 한 변수에 여러 개의 데이터를 넣는 것</li>
+  <li>언패킹 : 한 변수의 데이터를 각각의 변수로 반환
+ex) t = [1,2,3]
+a, b, c = t</li>
+</ul>
+
+<h5 id="python-2-2">[Python 2-2]</h5>
+<h6 id="함수">함수</h6>
+<ul>
+  <li>어떤 일을 수행하는 코드의 덩어리</li>
+  <li>def 함수이름 () :</li>
+</ul>
+
+<h6 id="print-formatting">print formatting</h6>
+<ul>
+  <li>%string, format 함수, fstring 중 fstring이 가장 깔끔!
+    <ul>
+      <li>fstring example <strong>**</strong><strong>**</strong><em>**</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-2-3">[Python 2-3]</h5>
+<h6 id="조건문">조건문</h6>
+<ul>
+  <li>어떤 일을 수행하는 코드의 덩어리</li>
+  <li>def 함수이름 () : <strong>**</strong>*****</li>
+</ul>
+
+<h6 id="반복문">반복문</h6>
+<ul>
+  <li>반복 시작 조건, 종료 조건, 수행 명령으로 구성</li>
+  <li>for문
+    <ul>
+      <li>range() 사용하기</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>while문</li>
+</ul>
+
+<h5 id="python-2-4">[Python 2-4]</h5>
+<h6 id="string">String</h6>
+<ul>
+  <li>시퀀스 자료형으로 문자형 data를 메모리에 저장</li>
+  <li>string은 1byte 크기로 한 글자씩 메모리 공간이 할당됨
+    <ul>
+      <li>Indexing</li>
+      <li>Slicing</li>
+      <li>덧셈 뺄셈 연산 가능</li>
+      <li>문자열 함수 <strong>**</strong><strong>**</strong>**</li>
+    </ul>
+  </li>
+</ul>
+
+<h6 id="파이썬-함수-호출-방식">파이썬 함수 호출 방식</h6>
+<ul>
+  <li>Call by Object Reference 객체의 주소가 함수로 전달되는 방식
+    <ul>
+      <li>전달된 객체를 참조하여 변경 시 호출자에 영향을 주나, 새로운 객체를 만들면 호출자에 영향을 주지 않는다</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="피어세션-정리-및-학습-회고">피어세션 정리 및 학습 회고</h3>
+<p>BoostCamp 첫 날 서로에 대해 알아가는 시간을 갖고 무슨 활동을 해야되는지 정했다. 매일 진행 정도를 맞추어서 강의 중 이해하기 어려웠던 부분과 과제 코드 리뷰를 하기로 했다.
+다른 조원 분들과 같이 부스트 캠프를 완료하기 위해 많이 노력해야 될거 같다!</p>
+
+<hr />
+
+<h2 id="day-02">Day 02</h2>
+<h3 id="강의-복습-내용-1">강의 복습 내용</h3>
+<h5 id="python3-1">[Python3-1]</h5>
+<h6 id="자료-구조">자료 구조</h6>
+<ul>
+  <li>스택 (Stack)
+    <ul>
+      <li>리스트를 사용하여 스택 구현 가능</li>
+      <li>append(), pop()</li>
+    </ul>
+  </li>
+  <li>큐 (Queue)
+    <ul>
+      <li>리스트를 사용하여 큐 구현 가능</li>
+      <li>append(), pop(0)</li>
+    </ul>
+  </li>
+  <li>튜플 (Tuple)
+    <ul>
+      <li>값의 변경이 불가능한 리스트</li>
+      <li>선언 시 ‘()’를 사용</li>
+      <li>리스트의 특징과 동일하다 –&gt; 왜 쓸까??
+  프로그램을 작동하는 동안 변경되지 않은 데이터를 저장하기 위해!</li>
+    </ul>
+  </li>
+  <li>집합 (Set)
+    <ul>
+      <li>값을 순서없이 저장, 중복 불허 하는 자료형</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>사전 (Dictionary)
+    <ul>
+      <li>Key와 Value를 매칭하여 key로 value 검색</li>
+      <li>.items()</li>
+      <li>.keys()</li>
+      <li>.values()</li>
+    </ul>
+  </li>
+  <li>Counter
+    <ul>
+      <li>Sequence type의 data element들의 개수를 dict 형태로 반환</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-3-2">[Python 3-2]</h5>
+<h6 id="pythonic-code">Pythonic Code</h6>
+<ul>
+  <li>파이썬의 특유의 문법을 활용해 효율적으로 코드를 표현</li>
+  <li>split
+    <ul>
+      <li>string 값을 기준으로 나눠서 List 형태로 변환</li>
+    </ul>
+  </li>
+  <li>join
+    <ul>
+      <li>string으로 구성된 List를 합쳐 하나의 string으로 반환</li>
+    </ul>
+  </li>
+  <li>list comprehension
+    <ul>
+      <li>기존 list를 사용해 다른 list를 만드는 기법</li>
+      <li>for + append 보다 빠름</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>enumerate
+    <ul>
+      <li>list의 element를 추출할 때 번호를 붙여서 추출</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>zip
+    <ul>
+      <li>두 개의 list의 값을 병렬적으로 추출함</li>
+    </ul>
+  </li>
+  <li>가변인자 (variable-length)
+    <ul>
+      <li>개수가 정해지지 않은 변수를 함수의 파라미터로 사용하는 법</li>
+      <li>* 기호를 사용하여 표시</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>키워드 가변인자 (Keyword variable-length)
+    <ul>
+      <li>파라미터 이름을 따로 지정하지 않고 입력</li>
+      <li>**기호를 사용하여 표시</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-4-1">[Python 4-1]</h5>
+<h6 id="클래스와-객체">클래스와 객체</h6>
+<ul>
+  <li>속성(변수)과 행동(함수)을 갖는다</li>
+  <li><strong>**</strong><strong>**</strong>예시 사진</li>
+  <li>__init__ : 객체 초기화 예약 함수</li>
+  <li>__는 특수한 예약 함수나 변수로 사용</li>
+  <li>Class 함수로 self를 반드시 추가해야된다</li>
+  <li>상속 (Inheritance)
+    <ul>
+      <li>부모클래스로부터 속성과 Method를 물려받은 자식 클래스를 생성하는 것</li>
+    </ul>
+  </li>
+  <li>다형성 (Polymorphism)
+    <ul>
+      <li>같은 이름 메소드의 내부 로직을 다르게 작성</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-4-2">[Python 4-2]</h5>
+<h6 id="module">Module</h6>
+<ul>
+  <li>프로그램에서의 작은 프로그램 조각들, 모듈을 모아 하나의 큰 프로그램 개발</li>
+  <li>import 문을 사용해서 모듈 호출
+    <h6 id="package">Package</h6>
+  </li>
+  <li>모둘을 모아 놓은 단위, 하나의 프로그램</li>
+</ul>
+
+<h5 id="ai-math-1">[AI Math 1]</h5>
+<h6 id="module-1">Module</h6>
+<ul>
+  <li>
+    <h6 id="package-1">Package</h6>
+    <p>-</p>
+  </li>
+</ul>
+
+<h5 id="ai-math-2">[AI Math 2]</h5>
+<h6 id="module-2">Module</h6>
+<ul>
+  <li>
+    <h6 id="package-2">Package</h6>
+  </li>
+</ul>
+
+<h5 id="ai-math-3">[AI Math 3]</h5>
+<h6 id="module-3">Module</h6>
+<ul>
+  <li>
+    <h6 id="package-3">Package</h6>
+  </li>
+</ul>
+
+<h5 id="ai-math-4">[AI Math 4]</h5>
+<h6 id="module-4">Module</h6>
+<ul>
+  <li>
+    <h6 id="package-4">Package</h6>
+  </li>
+</ul>
+
+<h5 id="ai-math-5">[AI Math 5]</h5>
+<h6 id="module-5">Module</h6>
+<ul>
+  <li>
+    <h6 id="package-5">Package</h6>
+  </li>
+  <li></li>
+</ul>
+
+<h3 id="피어세션-정리-및-학습-회고-1">피어세션 정리 및 학습 회고</h3>
+<p>과제의 코드 리뷰를 통해 다른 조원분들이 파이썬 코드를 어떻게 짜는 지 보고 배울 수 있었다. 확실히 C++로만 코딩한 나보다 더 효율적으로 잘 짜신다. 보고 많이 배워야 될거같다! 파이썬의 모듈들을 빨리 알아 보고 정규표현도 공부해야된다. 수학은 역시나 어렵다…. 주말을 통해 다시 정리해야될거 같다</p>
+
+<hr />
+
+<h2 id="day-03">Day 03</h2>
+<h3 id="강의-복습-내용-2">강의 복습 내용</h3>
+<h5 id="python3-1-1">[Python3-1]</h5>
+<h6 id="자료-구조-1">자료 구조</h6>
+<ul>
+  <li>스택 (Stack)
+    <ul>
+      <li>리스트를 사용하여 스택 구현 가능</li>
+      <li>append(), pop()</li>
+    </ul>
+  </li>
+  <li>큐 (Queue)
+    <ul>
+      <li>리스트를 사용하여 큐 구현 가능</li>
+      <li>append(), pop(0)</li>
+    </ul>
+  </li>
+  <li>튜플 (Tuple)
+    <ul>
+      <li>값의 변경이 불가능한 리스트</li>
+      <li>선언 시 ‘()’를 사용</li>
+      <li>리스트의 특징과 동일하다 –&gt; 왜 쓸까??
+  프로그램을 작동하는 동안 변경되지 않은 데이터를 저장하기 위해!</li>
+    </ul>
+  </li>
+  <li>집합 (Set)
+    <ul>
+      <li>값을 순서없이 저장, 중복 불허 하는 자료형</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>사전 (Dictionary)
+    <ul>
+      <li>Key와 Value를 매칭하여 key로 value 검색</li>
+      <li>.items()</li>
+      <li>.keys()</li>
+      <li>.values()</li>
+    </ul>
+  </li>
+  <li>Counter
+    <ul>
+      <li>Sequence type의 data element들의 개수를 dict 형태로 반환</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-3-2-1">[Python 3-2]</h5>
+<h6 id="pythonic-code-1">Pythonic Code</h6>
+<ul>
+  <li>파이썬의 특유의 문법을 활용해 효율적으로 코드를 표현</li>
+  <li>split
+    <ul>
+      <li>string 값을 기준으로 나눠서 List 형태로 변환</li>
+    </ul>
+  </li>
+  <li>join
+    <ul>
+      <li>string으로 구성된 List를 합쳐 하나의 string으로 반환</li>
+    </ul>
+  </li>
+  <li>list comprehension
+    <ul>
+      <li>기존 list를 사용해 다른 list를 만드는 기법</li>
+      <li>for + append 보다 빠름</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>enumerate
+    <ul>
+      <li>list의 element를 추출할 때 번호를 붙여서 추출</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>zip
+    <ul>
+      <li>두 개의 list의 값을 병렬적으로 추출함</li>
+    </ul>
+  </li>
+  <li>가변인자 (variable-length)
+    <ul>
+      <li>개수가 정해지지 않은 변수를 함수의 파라미터로 사용하는 법</li>
+      <li>* 기호를 사용하여 표시</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+  <li>키워드 가변인자 (Keyword variable-length)
+    <ul>
+      <li>파라미터 이름을 따로 지정하지 않고 입력</li>
+      <li>**기호를 사용하여 표시</li>
+      <li>
+        <hr />
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-4-1-1">[Python 4-1]</h5>
+<h6 id="클래스와-객체-1">클래스와 객체</h6>
+<ul>
+  <li>속성(변수)과 행동(함수)을 갖는다</li>
+  <li><strong>**</strong><strong>**</strong>예시 사진</li>
+  <li>__init__ : 객체 초기화 예약 함수</li>
+  <li>__는 특수한 예약 함수나 변수로 사용</li>
+  <li>Class 함수로 self를 반드시 추가해야된다</li>
+  <li>상속 (Inheritance)
+    <ul>
+      <li>부모클래스로부터 속성과 Method를 물려받은 자식 클래스를 생성하는 것</li>
+    </ul>
+  </li>
+  <li>다형성 (Polymorphism)
+    <ul>
+      <li>같은 이름 메소드의 내부 로직을 다르게 작성</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-4-2-1">[Python 4-2]</h5>
+<h6 id="module-6">Module</h6>
+<ul>
+  <li>프로그램에서의 작은 프로그램 조각들, 모듈을 모아 하나의 큰 프로그램 개발</li>
+  <li>import 문을 사용해서 모듈 호출
+    <h6 id="package-6">Package</h6>
+  </li>
+  <li>모둘을 모아 놓은 단위, 하나의 프로그램</li>
+</ul>
+
+<h5 id="ai-math-6">[AI Math 6]</h5>
+<p>######</p>
+
+<h5 id="ai-math-7">[AI Math 7]</h5>
+<p>######</p>
+
+<h5 id="ai-math-8">[AI Math 8]</h5>
+<p>######</p>
+
+<h5 id="ai-math-9">[AI Math 9]</h5>
+<p>######</p>
+
+<h3 id="피어세션-정리-및-학습-회고-2">피어세션 정리 및 학습 회고</h3>
+
+<hr />
+
+<h2 id="day-04">Day 04</h2>
+<h3 id="강의-복습-내용-3">강의 복습 내용</h3>
+<h5 id="python5-1">[Python5-1]</h5>
+<h6 id="exception">Exception</h6>
+<ul>
+  <li>try ~ except 문법
+    <ul>
+      <li><strong>**</strong><strong>**</strong>** 사진 올리기</li>
+      <li>Built in exception 표 사진 올리기
+        <h6 id="file-handling">File handling</h6>
+      </li>
+    </ul>
+  </li>
+  <li>디렉토리
+    <ul>
+      <li>폴더 또는 디렉토리로 불림</li>
+      <li>파일과 다른 디렉토리를 포함할 수 있음</li>
+    </ul>
+  </li>
+  <li>파일
+    <ul>
+      <li>컴퓨터에서 정보를 저장하는 논리적인 단위</li>
+      <li>실행, 쓰기, 읽기 등 가능</li>
+      <li><strong>**</strong><strong>**</strong>*** 이미지 넣기</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-5-2">[Python 5-2]</h5>
+<h6 id="python-data-handling">Python Data Handling</h6>
+<ul>
+  <li>CSV
+    <ul>
+      <li>쉼표로 구분한 텍스트 파일</li>
+      <li>엑셀 양식의 데이터를 프로그램에 상관없이 쓰기위한 데이터 형식</li>
+    </ul>
+  </li>
+  <li>정규식 (Regular expression) <strong>**</strong>
+    <ul>
+      <li>복잡한 문자열 패턴을 정의하는 문자 표현 공식</li>
+      <li>특정한 규칙을 가진 문자열의 집합 추출</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="python-6">[Python 6]</h5>
+<h6 id="numpy">Numpy</h6>
+
+<h5 id="ai-math-10">[AI Math 10]</h5>
+<p>######</p>
+
+<h3 id="피어세션-정리-및-학습-회고-3">피어세션 정리 및 학습 회고</h3>
+<p>다 같이 과제에 대한 코드리뷰를 진행했다. 오늘도 역시나 파이썬의 좋은 모듈들을 볼 수 있어 좋은 기회였다. 그리고 정규표현식의 중요성을 다시 느꼈다.마스터 클래스 수업에서 임성빈 교수님의 말씀을 들을 수 있었다. 부스트코스의 많은 수강생 역시 나 처럼 수학에 대해 어려움을 겪고 있어, 교수님이 소소한 팁들을 알려 주었다.</p>
+<ul>
+  <li>용어의 정의(Definition)부터 외우자!
+    <ul>
+      <li>교과서, 위키피디아 등 구글링해서 알아보자!</li>
+      <li>AI Korea, PyTorch KR, TensorFlow KR 에 질문글 남겨라</li>
+    </ul>
+  </li>
+  <li>용어를 외웠다면 예제를 찾아 보도록 하자!
+    <ul>
+      <li>언제, 어디서, 어떤 경우에 쓰인다를 알아가는 것이 중요!!</li>
+    </ul>
+  </li>
+  <li>선형대수 / 확률론 / 통계학은 꼭 알아두자!</li>
+  <li>책 추천 : <a href="https://d2l.ai/">Dive into Deep Learning</a></li>
+</ul>
+
+<hr />
+
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page 
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to D A R K&nbsp; &nbsp;H O R S E</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+            id="searchtext" type="text" name="searchtext"  
+            placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+                </section>
+            
+            -->
+            
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/built/images/ironman.png" alt="pkpete" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/pkpete">KO JAE UK</a></h4>
+                                
+                                    <p>Read <a href="/author/pkpete">more posts</a> by this author.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/pkpete">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            var this_page_url = 'https://pkpete.github.io/boostcamp';
+                            var this_page_identifier = '/boostcamp';
+                            var this_page_title = 'Week 1';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://https-pkpete-github-io.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/baekjoon-9663">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/baekjoon-9663">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Algorithm</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Baekjoon 알고리즘 - 9663번 N-Queen c++</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>9663번 N-Queen
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/ironman.png" alt="KO JAE UK" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/pkpete/">KO JAE UK</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="https://pkpete.github.io/">
+            
+            <span>D A R K&nbsp; &nbsp;H O R S E</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Week 1</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Week+1&amp;url=https://pkpete.github.io/boostcamp"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://pkpete.github.io/boostcamp"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://pkpete.github.io/">D A R K&nbsp; &nbsp;H O R S E</a> &copy; 2021</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search D A R K&nbsp; &nbsp;H O R S E</h1>
+            <p class="subscribe-overlay-description">
+            검색할 키워드를 입력하시오 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+            id="searchtext" type="text" name="searchtext"  
+            placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+        </div>
+    </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+    $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+    });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
